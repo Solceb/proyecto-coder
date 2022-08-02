@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2? family= Ibarra+Real+Nova:ital,wght@0,400;0,700;1,400;1,600 & display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* HEADER */
+
+header{
+    
+}
+
+header nav{
+   width: 100%;
+   background-color: rgba(60, 120, 122, 0.079);
+   display: flex;  
+   justify-content: space-around;
+   align-items: center;
+ 
+}
+
+
+header nav ul{
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+}
+
+header li{
+   margin: 5px;
+}
+
+header nav ul li a{
+   padding: 5px;
+   text-decoration: none;
+   color: black;
+   font-weight: 200;
+   font-size: 20px;
+   border-color: dimgray;
+   background-color: rgba(171, 183, 184, 0.559);
+}
+
+
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.hero{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background:linear-gradient(rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.452) ), url("../img/fondo..jpg");
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+
+
+.hero h1{
+   margin: 20px;
+   padding: 30px;
+   font-size: 80px;
+   color: rgb(255, 255, 255);
+   font-weight: 400;
+   font-family:'Ibarra Real Nova', serif;
+   text-align: center;
+   border-style:double; color: rgb(215, 240, 240);
+ 
+   }
+
+
+.hero p{
+   margin:30 px;
+   padding: 30px;
+   font: size 50px;
+   font-weight: 200px;
+   color: rgb(255, 255, 255)
+
+
+}
+
+
+/* MAIN */ 
+
+
+main{
+background-color: rgb(215, 203, 177);
+}
+
+.clinica h2 {
+padding: 30px;
+margin: 30px;
+text-align: center;
+font-size: 40px;
+font-weight: 100;
+font-style:italic;
+color: rgb(34, 40, 40);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration-line: underline; color: darkslategrey;
+}
+ 
+.clinica p{
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   font-weight: 100px;
+   color: rgb(55, 61, 61);
+}
+
+.instalaciones {
+   width: 100%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   display: grid;
+   grid-template-columns:repeat(2,1fr);
+   grid-template-rows: 300px 200px 200px;
+   gap: 20px;
+
+}
+   
+.instalaciones div img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
+-webkit-box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
+-moz-box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
+
+}
+
+
+
+.instalaciones5{
+ grid-row-start: 2;
+ grid-row-end: 4;
+}
+
+ /* TARJETAS */ 
+
+.staff{
+ padding: 30px;
+ margin: 30px;
+}
+
+.staff h2{
+   padding: 30px;
+   text-align: center;
+   font-size:x-large;
+}
+
+.staff div{
+    display:flex
+    justify-content:space-between;
+
+}
+
+
+.staff div div{
+   width: 250px;
+   height: 400px;
+   border: 1px solid grey;
+   margin-bottom: 20px;
+   text-align: center;
+   border-radius: 10px;
+   background-color: floralwhite;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column; 
+
+}
+
+.staff h3{
+font-size: large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 200;
+
+}
+
+.staff div{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+.staff img{
+   width: 250px;
+   height: 300px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+
+.staff a{  
+width: 80px;
+height: 40px;
+text-align: center;
+font-weight: 400;
+text-decoration: none;
+border-radius: 10%;
+color: rgb(252, 251, 251);
+background-color: rgb(145, 151, 168);
+transition: 1s;
+
+
+}
+
+.staff a:hover{
+   transform: scale(1,1);
+
+}
+
+
+/* FOOTER */
+
+footer{
+background-color: rgba(164, 219, 220, 0.745);
+
+}
+
+footer a{
+  
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(23, 23, 24);
+
+}
+
+h3{
+   margin: 10px;
+   font-size: 30px;
+}
+
+ footer{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+ }
+
+.sublogo {
+   width:200px;
+   height:200px;
+
+}
+
+.redes img{
+   width: 50px;
+   height: 50px;
+}
+
+/* MEDIA */
+
+@media screen and (max-width:770px){
+   header nav{
+      flex-direction: column;  
+}
+}
+
+@media screen and (max-width:567px) { header nav ul{
+   flex-direction:column;
+   align-items:center;
+}
+   
+}
+
+@media screen and (max-width:700px) {
+   .instalaciones{
+      grid-template-columns: 1fr;
+      grid-template-rows: 200px;
+
+   }
+   
+}
+
+
+
+@media screen and (max-width:600px) {
+   .header nav{
+      flex-direction: column;
+   }
+   
+}
+
+
+@media screen and (max-width:600px){
+   .header nav ul{
+      margin: 50px;
+   }
+   
+}
+
+
+/* SERVICIOS */
+
+.servicios h2{
+   padding: 20px;
+   text-align: center;
+   font-size:40px;
+   margin-bottom: 30px;
+
+}
+
+
+.servicios div div{
+   width: 300px;
+   height: 500px;
+   border: 2px solid grey;
+   margin-bottom: 10px;
+   text-align: center;
+   border-radius: 10px;
+   background-color: floralwhite;
+   display: flex;
+   justify-content:center ;
+   flex-direction: column;
+}
+
+.servicios img{
+   width: 250px;
+   height: 350px;
+   object-fit: cover;
+   
+
+
+}
+
+
+.servicios div{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.servicios h3{
+   font-size: 25px;
+   
+}
+
+.servicios {
+   padding: 20px;
+   margin: 30px;
+  
+  }
+
+.servicios p{
+   margin: 10px;
+   margin-bottom: 20px;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+/* ACERCA DE NOSOTROS */
+
+.nosotros{
+   width: 100%;
+   height: 100%;
+    background-color: rgb(219, 200, 175);
+    background-size: 100%;
+}
+
+
+.nosotros h2{
+     padding-top: 20px;
+     margin: 30px;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 150;
+}
+
+
+.doctors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.doctors img{
+ width: 250px;
+ height: 400px;
+
+}
+
+.lista{
+ margin: 20px;
+ padding: 20px;
+ display: flex;
+ justify-content:space-around ;
+
+}
+
+
+
+/*GRID GALERIA*/ 
+
+.galeria-clinica{
+width: 100%;
+margin-top: 30px;
+margin-bottom: 30px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+grid-template-rows:150px 500px 200px;
+gap: 15px;
+
+}
+
+.galeria-clinica div img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
+-webkit-box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
+-moz-box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
+
+}
+
+.galeria-clinica div:{
+transition: 2s;
+}
+
+.galeria-clinica div:hover{
+   transform: scale(1,1);
+}
+
+.grid-galeria4{
+   grid-row-start: 2;
+   grid-row-end: 4;
+}
+
+.grid-galeria2{
+   grid-column-start: 2;
+   grid-column-end: 4;
+}
+
+.grid-galeria9{
+   grid-column-start: 2;
+   grid-column-end: 4;
+}
+
+/* MEDIA*/
+
+@media screen and (max-width:900px){
+  .galeria-clinica{
+   grid-template-columns: 1fr;
+   grid-template-rows: 150px;
+   grid-template-areas: 
+      "grid-galeria1 grid-galeria1"
+      "grid-galeria2 grid-galeria3"
+      "grid-galeria4 grid-galeria5"
+      "grid-galeria6 grid-galeria7"
+      "grid-galeria9 grid-galeria8";
+   }
+   
+}
+
+@media screen and (max-width:650px){
+   .galeria-clinica{
+      grid-template-columns: 1fr;
+      grid-template-rows: 100px;
+   }
+}
+
+
