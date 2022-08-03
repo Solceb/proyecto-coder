@@ -78,6 +78,7 @@ background-attachment: fixed;
  
    }
 
+   
 
 .hero p{
    margin:30 px;
@@ -95,6 +96,7 @@ background-attachment: fixed;
 
 main{
 background-color: rgb(215, 203, 177);
+background-image: radial-gradient(circle, rgba(251,164,63,0.8743872549019608) 0%, rgba(213,200,173,1) 100%);
 }
 
 .clinica h2 {
@@ -176,6 +178,7 @@ box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
    display: flex;
    justify-content: flex-start;
    flex-direction: column; 
+
 
 }
 
@@ -430,6 +433,12 @@ object-fit: cover;
 box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
 -webkit-box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
 -moz-box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
+}
+
+.galeria-clinica div img:hover{
+   transform: scale(1.5);
+   transition-delay: 1s;
+   animation-timing-function: ease-in;
 
 }
 
