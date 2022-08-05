@@ -151,7 +151,18 @@ box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
 
  /* TARJETAS */ 
 
+
 .staff{
+   display:flex;
+   justify-content: space-around;
+
+}
+
+.staff div{
+   text-align: center;
+}
+
+/* .staff{
  padding: 30px;
  margin: 30px;
 }
@@ -175,11 +186,10 @@ box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
    border: 1px solid grey;
    margin-bottom: 20px;
    text-align: center;
-   border-radius: 10px;
    background-color: floralwhite;
    display: flex;
    justify-content: flex-start;
-   flex-direction: column; 
+
 
 
 }
@@ -196,18 +206,18 @@ font-weight: 200;
    flex-wrap: wrap;
    justify-content: space-around;
    align-items: center;
-}
+} */
 
 
-.staff img{
+/* .staff img{
    width: 250px;
    height: 300px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 
-}
+} */
 
-.staff a{  
+/* .staff a{  
 width: 80px;
 height: 40px;
 text-align: center;
@@ -219,12 +229,7 @@ background-color: rgb(145, 151, 168);
 transition: 1s;
 
 
-}
-
-.staff a:hover{
-   transform: scale(1,1);
-
-}
+} */
 
 
 /* FOOTER */
