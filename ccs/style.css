@@ -162,74 +162,6 @@ box-shadow: 14px 15px 21px -7px rgba(0,0,0,0.47);
    text-align: center;
 }
 
-/* .staff{
- padding: 30px;
- margin: 30px;
-}
-
-.staff h2{
-   padding: 30px;
-   text-align: center;
-   font-size:x-large;
-}
-
-.staff div{
-    display:flex
-    justify-content:space-between;
-
-}
-
-
-.staff div div{
-   width: 250px;
-   height: 400px;
-   border: 1px solid grey;
-   margin-bottom: 20px;
-   text-align: center;
-   background-color: floralwhite;
-   display: flex;
-   justify-content: flex-start;
-
-
-
-}
-
-.staff h3{
-font-size: large;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 200;
-
-}
-
-.staff div{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   align-items: center;
-} */
-
-
-/* .staff img{
-   width: 250px;
-   height: 300px;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-
-} */
-
-/* .staff a{  
-width: 80px;
-height: 40px;
-text-align: center;
-font-weight: 400;
-text-decoration: none;
-border-radius: 10%;
-color: rgb(252, 251, 251);
-background-color: rgb(145, 151, 168);
-transition: 1s;
-
-
-} */
 
 
 /* FOOTER */
@@ -325,7 +257,17 @@ h3{
 
 }
 
+.carousel-item h5{
+   font-size: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: bisque;
+   text-decoration:double;
+   background-color: rgb(73, 74, 75);
+   background-size: cover;
+   background:linear-gradient(rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.452) );
+   
+}
 
+/* 
 .servicios div div{
    width: 300px;
    height: 500px;
@@ -373,7 +315,7 @@ h3{
    font-size: 20px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-}
+} */
 
 
 /* ACERCA DE NOSOTROS */
