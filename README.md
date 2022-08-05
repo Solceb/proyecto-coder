@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
+
 # proyecto-coder
->>>>>>> 93dbd49f2916bdc5bed42cd3dedc30d1dcbfd5aa
 <h1 align="center">Clínica de Rehabilitación Santa Isabel</h1>
 <h3 align="center">Centro de rehabilitación integral</h3>
 
