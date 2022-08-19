@@ -1,0 +1,7 @@
+.card{
+  align-items: center;
+  .cards{
+    background-color: map-get($cards ,bg-card);
+    border: map-get($cards ,border-card);
+  }
+}
