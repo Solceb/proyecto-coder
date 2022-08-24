@@ -1,0 +1,9 @@
+main{
+    .doctors{
+        @include flex ( flex, center, center);
+        img{
+            width: 33%;
+            height: 100vh;
+        }
+    }
+}

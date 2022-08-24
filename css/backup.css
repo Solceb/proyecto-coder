@@ -297,55 +297,7 @@ h3{
    
 }
 
-/* 
-.servicios div div{
-   width: 300px;
-   height: 500px;
-   border: 2px solid grey;
-   margin-bottom: 10px;
-   text-align: center;
-   border-radius: 10px;
-   background-color: floralwhite;
-   display: flex;
-   justify-content:center ;
-   flex-direction: column;
-}
 
-.servicios img{
-   width: 250px;
-   height: 350px;
-   object-fit: cover;
-   
-
-
-}
-
-
-.servicios div{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   flex-wrap: wrap;
-}
-
-.servicios h3{
-   font-size: 25px;
-   
-}
-
-.servicios {
-   padding: 20px;
-   margin: 30px;
-  
-  }
-
-.servicios p{
-   margin: 10px;
-   margin-bottom: 20px;
-   font-size: 20px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-} */
 
 
 /* ACERCA DE NOSOTROS */
