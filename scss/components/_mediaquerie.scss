@@ -1,0 +1,66 @@
+@media screen and (max-width:770px){
+    header nav{
+       flex-direction: column;  
+ }
+ }
+ 
+ 
+
+ @media screen and (max-width:567px) { header nav ul{
+    flex-direction:column;
+    align-items:center;
+ }
+    
+ }
+ 
+ @media screen and (max-width:700px) {
+    .instalaciones{
+       grid-template-columns: 1fr;
+       grid-template-rows: 200px;
+ 
+    }
+    
+ }
+ 
+ 
+ 
+ @media screen and (max-width:600px) {
+    .header nav{
+       flex-direction: column;
+    }
+    
+ }
+ 
+ 
+ @media screen and (max-width:600px){
+    .header nav ul{
+       margin: 50px;
+    }
+    
+ }
+ 
+
+// SERVICIOS
+
+@media screen and (max-width:900px){
+    .galeria-clinica{
+     grid-template-columns: 1fr;
+     grid-template-rows: 150px;
+     grid-template-areas: 
+        "grid-galeria1 grid-galeria1"
+        "grid-galeria2 grid-galeria3"
+        "grid-galeria4 grid-galeria5"
+        "grid-galeria6 grid-galeria7"
+        "grid-galeria9 grid-galeria8"
+        "grid-galeria10 grid-galeria11";
+     }
+     
+  }
+  
+  @media screen and (max-width:650px){
+     .galeria-clinica{
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px;
+     }
+  }
+  

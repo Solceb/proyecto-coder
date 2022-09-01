@@ -6,11 +6,15 @@ main{
             @extend %title
         }
     }
-    .carruselservice{
+    .carouselExampleControls{
         .carousel-inner{
-            carousel-item{
+            .carousel-item active{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
                 h5{
-                    font-size: 50px;
+                    font-size: 70px;
                     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: bisque;
                     text-decoration:double;
                     background-color: rgb(73, 74, 75);
