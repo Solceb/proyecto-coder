@@ -119,15 +119,36 @@ main .carruselservice .carousel-inner carousel-item h5 {
   background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.452)); }
 
-.nosotros {
-  width: 100%;
-  height: 30%;
-  background-color: #dbc8af;
-  background-size: 100%; }
-  .nosotros h2 {
-    padding-top: 20px;
-    margin: 30px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 150; }
+main section .galeria-clinica .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 250px 400px;
+  gap: 10px 10px;
+  grid-auto-flow: row dense; }
+  main section .galeria-clinica .container div {
+    transition: 2s; }
+    main section .galeria-clinica .container div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: 14px 15px 21px -7px rgba(0, 0, 0, 0.47);
+      -webkit-box-shadow: 14px 15px 21px -7px rgba(0, 0, 0, 0.47);
+      -moz-box-shadow: 14px 15px 21px -7px rgba(0, 0, 0, 0.47); }
+      main section .galeria-clinica .container div imghover {
+        transform: scale(1.5);
+        transition-delay: 1s;
+        animation-timing-function: ease-in; }
 
+main .doctors {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse; }
+  main .doctors img {
+    width: 30%;
+    height: 100vh; }
+  main .doctors .lista {
+    margin-top: 50;
+    padding: 60px;
+    width: 50%;
+    height: 100vh; }

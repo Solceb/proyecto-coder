@@ -1,9 +1,17 @@
 main{
     .doctors{
-        @include flex ( flex, center, center);
+        @include flex ( flex, space-around, center);
+        
+        flex-direction: row-reverse;
         img{
-            width: 33%;
+            width: 30%;
             height: 100vh;
         }
+       .lista{
+        margin-top:50;
+        padding: 60px;
+        width: 50%;
+        height: 100vh;
+       }
     }
 }
