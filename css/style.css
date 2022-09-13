@@ -114,36 +114,39 @@ main .carouselExampleControls .carousel-inner .carousel-item active {
   display: flex;
   justify-content: center;
   align-items: center; }
-  main .carouselExampleControls .carousel-inner .carousel-item active h5 {
-    font-size: 70px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: bisque;
-    text-decoration: double;
-    background-color: #494a4b;
-    background-size: cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.452)); }
 
-main .galeria-clinica {
+main .nosotros {
+  width: 100%;
+  background-color: #d4c1b7;
+  background-size: 100%; }
+
+main section h5 {
+  display: flex;
+  align-items: center;
+  text-align: center, white;
+  text-decoration: dotted; }
+
+main section .galeria-clinica {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 250px 400px;
   gap: 10px 10px;
   grid-auto-flow: row dense; }
-  main .galeria-clinica .grid-galeria4 {
+  main section .galeria-clinica .grid-galeria4 {
     grid-row-start: 2;
     grid-row-end: 4; }
-  main .galeria-clinica div img {
+  main section .galeria-clinica div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     box-shadow: 14px 15px 21px -7px rgba(0, 0, 0, 0.47);
     -webkit-box-shadow: 14px 15px 21px -7px rgba(0, 0, 0, 0.47);
     -moz-box-shadow: 14px 15px 21px -7px rgba(0, 0, 0, 0.47); }
-    main .galeria-clinica div imghover {
+    main section .galeria-clinica div imghover {
       transition: 2s;
       transform: scale(1.2);
-      transition-delay: 0.5s;
-      animation-timing-function: ease-in; }
+      transition-delay: 0.5s; }
 
 main .doctors {
   display: flex;

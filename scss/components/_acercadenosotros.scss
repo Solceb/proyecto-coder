@@ -1,22 +1,28 @@
 main{
 
-// .nosotros{
-//     width: 50%;
-//     height: 30%;
-//     background-color: rgb(219, 200, 175);
-//     background-size: 100%;
-//     h2{
-//         padding-top: 20px;
-//         margin: 30px;
-//         font-size: 20px;
-//         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-//         font-weight: 150;
-//     }
-    
-// }
 
+    
+
+.nosotros{
+    width: 100%;
+    background-color: rgb(212, 193, 183);
+    background-size: 100%;
+
+    
+    
+}
+
+section{  
+
+h5{
+    display: flex;
+    align-items: center;
+    text-align: center, white;
+    text-decoration: dotted;
+}
  
 .galeria-clinica{ 
+        margin-top: 50px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 250px 400px;
@@ -49,7 +55,6 @@ main{
                     transition: 2s;
                     transform:scale(1.2);
                     transition-delay: 0.5s;
-                    animation-timing-function: ease-in;
                 }
             }
         }
@@ -58,7 +63,7 @@ main{
     }
       
 
-    
+}
 
 }
   
